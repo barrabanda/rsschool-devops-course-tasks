@@ -9,7 +9,7 @@
 
 2. **Create IAM User and Configure MFA**
 
-   - Created a new user with the following policies:
+   - New user created with the following policies:
      - AmazonEC2FullAccess
      - AmazonRoute53FullAccess
      - AmazonS3FullAccess
@@ -19,12 +19,12 @@
      - AmazonEventBridgeFullAccess
    ![image](https://github.com/user-attachments/assets/4b20f2ca-4e08-42ec-90db-4cd9af8378cc)
 
-   - Configure MFA for both the new user and the root user.
+   - MFA is configured for both users:
    ![image](https://github.com/user-attachments/assets/dcf399d2-bd58-44f3-8b99-f70c9506c647)
    ![image](https://github.com/user-attachments/assets/1470581c-d194-4008-805b-88505e04a4fb)
 
 
-   - Generate a new pair of Access Key ID and Secret Access Key for the user.
+   - Access Key ID and Secret Access Key is generated for the user:
    ![image](https://github.com/user-attachments/assets/faea4cc8-80dd-4aea-9d4b-072a2f4c416f)
 
 3. **Configure AWS CLI**
