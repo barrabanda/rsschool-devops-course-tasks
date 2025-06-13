@@ -21,6 +21,8 @@
 
    - Configure MFA for both the new user and the root user.
    ![image](https://github.com/user-attachments/assets/dcf399d2-bd58-44f3-8b99-f70c9506c647)
+   ![image](https://github.com/user-attachments/assets/1470581c-d194-4008-805b-88505e04a4fb)
+
 
    - Generate a new pair of Access Key ID and Secret Access Key for the user.
    ![image](https://github.com/user-attachments/assets/faea4cc8-80dd-4aea-9d4b-072a2f4c416f)
