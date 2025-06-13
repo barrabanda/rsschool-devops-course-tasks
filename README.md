@@ -20,6 +20,7 @@
    ![image](https://github.com/user-attachments/assets/4b20f2ca-4e08-42ec-90db-4cd9af8378cc)
 
    - MFA is configured for both users:
+     
    ![image](https://github.com/user-attachments/assets/dcf399d2-bd58-44f3-8b99-f70c9506c647)
    ![image](https://github.com/user-attachments/assets/1470581c-d194-4008-805b-88505e04a4fb)
 
