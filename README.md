@@ -1,15 +1,16 @@
 # Task 1: AWS Account Configuration
 
-1. **Install AWS CLI and Terraform**
+1. **AWS CLI and Terraform Installation**
 
    - AWS CLI 2
      
 ![image](https://github.com/user-attachments/assets/0dd94c31-90b6-4d23-a166-a6de4ab0913f)
-   - Terraform 1.6+   
+   - Terraform 1.6+
+     
 ![ter_v](https://github.com/user-attachments/assets/273217d9-0ee3-473c-ad59-375771baaf97)
    - Configuring Terraform version manager - Windows (64bit) - currently presumed failing
 
-2. **Create IAM User and Configure MFA**
+2. **IAM User and MFA**
 
    - New user created with the following policies:
      - AmazonEC2FullAccess
@@ -19,35 +20,37 @@
      - AmazonVPCFullAccess
      - AmazonSQSFullAccess
      - AmazonEventBridgeFullAccess
+       
    ![image](https://github.com/user-attachments/assets/4b20f2ca-4e08-42ec-90db-4cd9af8378cc)
 
    - MFA is configured for both users:
      
    ![image](https://github.com/user-attachments/assets/dcf399d2-bd58-44f3-8b99-f70c9506c647)
+   
    ![image](https://github.com/user-attachments/assets/1470581c-d194-4008-805b-88505e04a4fb)
 
 
-   - Access Key ID and Secret Access Key is generated for the user:
+   - Access Key ID and Secret Access Key are generated for the user:
    ![image](https://github.com/user-attachments/assets/faea4cc8-80dd-4aea-9d4b-072a2f4c416f)
 
-3. **Configure AWS CLI**
+4. **AWS CLI**
 
-   - Configure AWS CLI to use the new user's credentials
+   - AWS CLI is configured to the new user's credentials
+     
 ![image](https://github.com/user-attachments/assets/2ad6ccfa-e768-4673-8c4b-4e1c4eecd018)
 
    
-   - Verify the configuration by running the command: `aws ec2 describe-instance-types --instance-types t4g.nano`
+   - Verification
    
 ![image](https://github.com/user-attachments/assets/ca724b43-705b-49e9-90c9-6b93363a3fbc)
 
 
-4. **Create a Github repository for your Terraform code**
+4. **Github repository for the Terraform code**
 
-   - Using your personal account create a repository `rsschool-devops-course-tasks`
+   - Created a repository `rsschool-devops-course-tasks`
 
-5. **Create a bucket for Terraform states**
+5. **Bucket for Terraform states**
 
-   - Locking terraform state via DynamoDB is not required in this task, but recommended by the best practices. vvvv
    - [Managing Terraform states Best Practices](https://spacelift.io/blog/terraform-s3-backend)
    - [Terraform backend S3](https://developer.hashicorp.com/terraform/language/backend/s3)
 
