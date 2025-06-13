@@ -3,6 +3,7 @@
 1. **Install AWS CLI and Terraform**
 
    - AWS CLI 2
+     
 ![image](https://github.com/user-attachments/assets/0dd94c31-90b6-4d23-a166-a6de4ab0913f)
    - Terraform 1.6+   
 ![ter_v](https://github.com/user-attachments/assets/273217d9-0ee3-473c-ad59-375771baaf97)
@@ -31,8 +32,13 @@
 
 3. **Configure AWS CLI**
 
-   - Configure AWS CLI to use the new user's credentials.
-   - Verify the configuration by running the command: `aws ec2 describe-instance-types --instance-types t4g.nano`.
+   - Configure AWS CLI to use the new user's credentials
+  
+   
+   - Verify the configuration by running the command: `aws ec2 describe-instance-types --instance-types t4g.nano`
+   
+![image](https://github.com/user-attachments/assets/ca724b43-705b-49e9-90c9-6b93363a3fbc)
+
 
 4. **Create a Github repository for your Terraform code**
 
