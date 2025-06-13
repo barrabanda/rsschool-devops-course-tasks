@@ -3,6 +3,7 @@
 1. **Install AWS CLI and Terraform**
 
    - AWS CLI 2
+![image](https://github.com/user-attachments/assets/0dd94c31-90b6-4d23-a166-a6de4ab0913f)
    - Terraform 1.6+   
 ![ter_v](https://github.com/user-attachments/assets/273217d9-0ee3-473c-ad59-375771baaf97)
    - Configuring Terraform version manager - Windows (64bit) - currently presumed failing
