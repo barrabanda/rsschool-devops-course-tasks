@@ -9,7 +9,7 @@
 
 2. **Create IAM User and Configure MFA**
 
-   - In your AWS account, navigate to IAM and create a new user with the following policies attached:
+   - Created a new user with the following policies:
      - AmazonEC2FullAccess
      - AmazonRoute53FullAccess
      - AmazonS3FullAccess
@@ -18,6 +18,8 @@
      - AmazonSQSFullAccess
      - AmazonEventBridgeFullAccess
    - Configure MFA for both the new user and the root user.
+   ![image](https://github.com/user-attachments/assets/dcf399d2-bd58-44f3-8b99-f70c9506c647)
+
    - Generate a new pair of Access Key ID and Secret Access Key for the user.
 
 3. **Configure AWS CLI**
