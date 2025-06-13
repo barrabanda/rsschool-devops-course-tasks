@@ -33,7 +33,8 @@
 3. **Configure AWS CLI**
 
    - Configure AWS CLI to use the new user's credentials
-  
+![image](https://github.com/user-attachments/assets/2ad6ccfa-e768-4673-8c4b-4e1c4eecd018)
+
    
    - Verify the configuration by running the command: `aws ec2 describe-instance-types --instance-types t4g.nano`
    
