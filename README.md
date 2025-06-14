@@ -51,30 +51,19 @@
 
 5. **Bucket for Terraform states**
 
-   - [Managing Terraform states Best Practices](https://spacelift.io/blog/terraform-s3-backend)
-   - [Terraform backend S3](https://developer.hashicorp.com/terraform/language/backend/s3)
+   - Provider created
+  
+   ![image](https://github.com/user-attachments/assets/a01b618a-8549-4776-8ad7-2da89abc4a02)
 
-6. **Create an IAM role for Github Actions(Additional task)💫**
+   - S3 bucket created
+  
+   ![image](https://github.com/user-attachments/assets/f5d001d7-9356-43d5-a176-4eb1cc399af8)
 
-   - Create an IAM role `GithubActionsRole` with the same permissions as in step 2:
-     - AmazonEC2FullAccess
-     - AmazonRoute53FullAccess
-     - AmazonS3FullAccess
-     - IAMFullAccess
-     - AmazonVPCFullAccess
-     - AmazonSQSFullAccess
-     - AmazonEventBridgeFullAccess
-   - [Terraform resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role)
+   ![image](https://github.com/user-attachments/assets/d208821b-f7bf-4b10-b172-70899f8ecc60)
 
-7. **Configure an Identity Provider and Trust policies for Github Actions(Additional task)💫**
 
-   - Update the `GithubActionsRole` IAM role with a Trust policy following the next guides
-   - [IAM roles terms and concepts](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html#id_roles_terms-and-concepts)
-   - [Github tutorial](https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)
-   - [AWS documentation on OIDC providers](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create_GitHub)
-   - `GitHubOrg` is a Github `username` in this case
 
-8. **Create a Github Actions workflow for deployment via Terraform**
+7. **Github Actions workflow for deployment via Terraform**
    - The workflow should have 3 jobs that run on pull request and push to the default branch:
      - `terraform-check` with format checking using [terraform fmt](https://developer.hashicorp.com/terraform/cli/commands/fmt)
      - `terraform-plan` for planning deployments [terraform plan](https://developer.hashicorp.com/terraform/cli/commands/plan)
