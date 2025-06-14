@@ -68,17 +68,5 @@
      - `terraform-check` with format checking using [terraform fmt](https://developer.hashicorp.com/terraform/cli/commands/fmt)
      - `terraform-plan` for planning deployments [terraform plan](https://developer.hashicorp.com/terraform/cli/commands/plan)
      - `terraform-apply` for deploying [terraform apply](https://developer.hashicorp.com/terraform/cli/commands/apply)
-   - [terraform init](https://developer.hashicorp.com/terraform/cli/commands/init)
-   - [Github actions reference](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
-   - [Setup terraform](https://github.com/hashicorp/setup-terraform)
-   - [Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials)
 
-## Submission
-
-- Create a branch `task_1` from `main` branch in your repository.
-- [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) from `task_1` branch to `main`.
-- Provide the code for Terraform and GitHub Actions in the PR.
-- Provide screenshots of `aws --version` and `terraform version` in the PR description.
-- Provide a link to the Github Actions workflow run in the PR description.
-- Provide the Terraform plan output with S3 bucket (and possibly additional resources) creation in the PR description.
 
